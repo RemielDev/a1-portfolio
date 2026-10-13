@@ -1,4 +1,4 @@
-Validation record — October 12, 2026 — simplified revision
+Validation record — October 12, 2026 — latest introduction
 
 HTML
 Nu Html Checker
@@ -28,7 +28,7 @@ Total execution time 3 milliseconds.
 
 About this checker • Report an issue
 
-CSS (all warnings)
+CSS (unchanged, all warnings)
  The W3C CSS Validation Service
 
 W3C CSS Validator results for file://localhost/TextArea (CSS level 3)
@@ -125,5 +125,5 @@ Web site engine's code is copyright © 2023
 
 
 Checked source SHA-256
-index.html: 0625a518c4966a3df06004714d9952c19cec6e7078538ff8b7379f9220c86ad6
+index.html: b313cc9dc4e584ece8f617e1bede40dd6002396704bce9ec7ab9175b5a50efaa
 style.css: 840dc25733d80fcc6d4368a9ad082e39d8c210b69a3cbe63a758f978a1813f73

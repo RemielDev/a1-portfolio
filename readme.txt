@@ -72,7 +72,7 @@ https://achecks.org/achecker/
 
 The course's HTML/CSS/accessibility/responsive-design lectures were also consulted. Image URLs are in assets/sources.txt.
 
-AI disclosure: I asked Codex to create a basic portfolio from the starter and my existing site, then simplify it to black/white, feature Kabuki/Snipers VS Robbers/Da Hood Entertainment, add other projects, and replace statistic blocks with an accomplishments list. Codex researched the content, generated and revised the HTML/CSS, ran browser/validator checks, collected screenshots, and helped complete this readme. This implementation is AI-assisted.
+AI disclosure: I asked Codex to create a basic portfolio from the starter and my existing site, then simplify it to black/white, feature Kabuki/Snipers VS Robbers/Da Hood Entertainment, add other projects, replace statistic blocks with an accomplishments list, and describe my broader work as an entrepreneur in the introduction. Codex researched the content, generated and revised the HTML/CSS, ran browser/validator checks, collected screenshots, and helped complete this readme. This implementation is AI-assisted.
 
 6. What classmates or individuals did you consult?
 
