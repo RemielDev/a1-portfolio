@@ -1,0 +1,182 @@
+Validation record — October 12, 2026
+
+HTML
+Nu Html Checker
+
+This tool is an ongoing experiment in better HTML checking, and its behavior remains subject to change
+
+Showing results for index.html (checked with vnu 26.10.12)
+Checker Input
+
+Show
+source
+outline
+image report
+errors & warnings only
+
+Check by
+address
+file upload
+text input
+Uploaded files with .xhtml or .xht extensions are parsed using the XML parser.
+
+Document checking completed. No errors or warnings to show.
+
+Used the HTML parser.
+
+Total execution time 4 milliseconds.
+
+About this checker • Report an issue
+
+CSS (all warnings)
+ The W3C CSS Validation Service
+
+W3C CSS Validator results for file://localhost/TextArea (CSS level 3)
+
+Jump to: Warnings (17) Validated CSS
+W3C CSS Validator results for file://localhost/TextArea (CSS level 3)
+Congratulations! No Error Found.
+
+This document validates as CSS level 3 !
+
+To show your readers that you've taken the care to create an interoperable Web page, you may display this icon on any page that validates. Here is the XHTML you could use to add this icon to your Web page:
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+            
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+        
+
+(close the img tag with > instead of /> if using HTML <= 4.01)
+
+	Interested in “developing” your developer skills? In W3Cx’s hands-on Professional Certificate Program, learn how to code the right way by creating Web sites and apps that use the latest Web standards. Find out more!
+
+Donate and help us build better tools for a better web.
+
+If you like, you can download a copy of this image to keep in your local web directory, and change the XHTML fragment above to reference your local image rather than the one on this server.
+
+↑ TOP
+
+Warnings (17)
+URI : file://localhost/TextArea
+14		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
+15		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
+35		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
+40		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
+40		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
+45		You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.
+49		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
+54		You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.
+60		Redefinition of gap
+68		Redefinition of grid-template-columns
+73		Redefinition of grid-template-columns
+77		Redefinition of padding-left
+77		Redefinition of padding-right
+78		Redefinition of padding-top
+79		Redefinition of font-size
+URI : [empty string]
+0		Redefinition of column-gap
+0		Redefinition of row-gap
+
+↑ TOP
+
+Valid CSS information
+
+↑ TOP
+
+Home About Documentation Download Feedback Credits
+Deutsch English Español Français 한국어 Italiano Nederlands 日本語 Polski Português Русский فارسی Svenska Български Українська Čeština Romanian Magyar Ελληνικά हिन्दी 简体中文
+
+COPYRIGHT © 2025 WORLD WIDE WEB CONSORTIUM.
+W3C® LIABILITY, TRADEMARK AND PERMISSIVE LICENSE RULES APPLY.
+
+AChecker original page
+Login    Register
+AChecker Web Accessibility Checker
+Subscribe for automatic accessibility monitoring with ACHECKS!
+ 
+Discover more
+Build a Website
+Find Care Aids
+Try Assistive Tech
+
+
+Check Accessibility By:
+
+
+URL
+Upload
+Markup
+File: 
+ 
+ Options
+Accessibility Review
+Accessibility Review (Guidelines: WCAG 2.0 (Level AA))
+
+
+Known Problems(0)
+Likely Problems (0)
+Potential Problems (50)
+HTML Validation
+CSS Validation
+
+ Congratulations! No known problems.
+
+
+Web site engine's code is copyright © 2023
+
+Discover more
+Compare Auto Rates
+Service Your Car
+Get Roadside Help
+
+AChecker with embedded assets
+Login    Register
+AChecker Web Accessibility Checker
+Subscribe for automatic accessibility monitoring with ACHECKS!
+ 
+Discover more
+Build a Website
+Find Care Aids
+Try Assistive Tech
+
+
+Check Accessibility By:
+
+
+URL
+Upload
+Markup
+File: 
+ 
+ Options
+Accessibility Review
+Accessibility Review (Guidelines: WCAG 2.0 (Level AA))
+
+
+Known Problems(0)
+Likely Problems (0)
+Potential Problems (50)
+HTML Validation
+CSS Validation
+
+ Congratulations! No known problems.
+
+
+Web site engine's code is copyright © 2023
+
+
+Checked source SHA-256
+index.html: 7f686d4bde20a86d7d5fc1a1f764d1f4a91ffa3041373dd42c6cc7a7b3ed5641
+style.css: fd493d65d544b471839ce10a4a79c7eafc6fa42f153294b46a585b88329fa261
