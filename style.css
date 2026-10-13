@@ -32,15 +32,28 @@ h3 {
   font-size: 20px;
 }
 
-header p {
-  font-size: 18px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid black;
 }
 
-nav {
-  margin-top: 20px;
-  padding: 10px;
-  color: white;
-  background-color: black;
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.intro {
+  padding-top: 30px;
+}
+
+.intro p {
+  font-size: 18px;
 }
 
 nav ul {
@@ -55,12 +68,7 @@ nav li {
 
 nav a {
   display: inline-block;
-  padding: 6px 8px;
-  color: white;
-}
-
-nav a:focus {
-  outline-color: white;
+  padding: 6px 0;
 }
 
 section {

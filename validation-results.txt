@@ -1,4 +1,4 @@
-Validation record — October 12, 2026 — navigation/sizing/dividers revision
+Validation record — October 12, 2026 — restored white top header
 
 HTML
 Nu Html Checker
@@ -24,7 +24,7 @@ Document checking completed. No errors or warnings to show.
 
 Used the HTML parser.
 
-Total execution time 3 milliseconds.
+Total execution time 4 milliseconds.
 
 About this checker • Report an issue
 
@@ -33,7 +33,7 @@ CSS (all warnings)
 
 W3C CSS Validator results for file://localhost/TextArea (CSS level 3)
 
-Jump to: Warnings (10) Validated CSS
+Jump to: Warnings (9) Validated CSS
 W3C CSS Validator results for file://localhost/TextArea (CSS level 3)
 Congratulations! No Error Found.
 
@@ -60,7 +60,7 @@ To show your readers that you've taken the care to create an interoperable Web p
 
 (close the img tag with > instead of /> if using HTML <= 4.01)
 
-	Interested in “developing” your developer skills? In W3Cx’s hands-on Professional Certificate Program, learn how to code the right way by creating Web sites and apps that use the latest Web standards. Find out more!
+	The W3C validators rely on community support for hosting and development.
 
 Donate and help us build better tools for a better web.
 
@@ -68,18 +68,17 @@ If you like, you can download a copy of this image to keep in your local web dir
 
 ↑ TOP
 
-Warnings (10)
+Warnings (9)
 URI : file://localhost/TextArea
 13		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
-59		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
-90		Redefinition of margin-bottom
-90		Redefinition of margin-left
-90		Redefinition of margin-top
-90		Redefinition of margin-right
-91		Redefinition of padding-bottom
-91		Redefinition of padding-left
-91		Redefinition of padding-top
-91		Redefinition of padding-right
+98		Redefinition of margin-bottom
+98		Redefinition of margin-left
+98		Redefinition of margin-top
+98		Redefinition of margin-right
+99		Redefinition of padding-bottom
+99		Redefinition of padding-left
+99		Redefinition of padding-top
+99		Redefinition of padding-right
 
 ↑ TOP
 
@@ -115,7 +114,7 @@ Accessibility Review (Guidelines: WCAG 2.0 (Level AA))
 
 Known Problems(0)
 Likely Problems (0)
-Potential Problems (54)
+Potential Problems (55)
 HTML Validation
 CSS Validation
 
@@ -126,5 +125,5 @@ Web site engine's code is copyright © 2023
 
 
 Checked source SHA-256
-index.html: f93b9ce1914a6f6770df50efc94830cc8a68ce0a47d8109b67a02c0dca2e1392
-style.css: 90240096b9bf6bca178bd868465a4aebeb46b41fe9b1fa9cf3ec3dcaaa0761d0
+index.html: bc240bf99083d146da1b7f4ae6ea88748287ae44f78adfd461c743066976d739
+style.css: 45d6535c82518aabbe9cba6b23aefa31b2867688459e99464489c5343e14f251
