@@ -1,80 +1,57 @@
-/* Base styles shared by every section. */
-* { box-sizing: border-box; }
-
 body {
-  margin: 0;
-  background-color: #fafaf7;
-  color: #202b26;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.5;
+  color: black;
+  background-color: white;
 }
 
-.page-width { max-width: 68rem; margin: 0 auto; padding: 0 1.5rem; }
-a { color: #216047; text-underline-offset: 0.2em; }
-a:hover { color: #143d2d; }
-a:focus { outline: 3px solid #8b4316; outline-offset: 4px; }
-p { margin: 0 0 1rem; }
-h1, h2, h3 { line-height: 1.2; }
-h2 { margin: 0 0 1.5rem; font-size: 1.6rem; }
-h3 { margin: 0 0 1rem; font-size: 1.25rem; }
-
-.skip-link {
-  position: absolute;
-  top: -6rem;
-  left: 1rem;
-  z-index: 1;
-  padding: 0.75rem;
-  background-color: #ffffff;
-  color: #216047;
-}
-.skip-link:focus { top: 1rem; }
-
-.site-header, .site-footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-.site-header { padding-top: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid #d7dfd8; }
-.name { color: #202b26; font-weight: bold; text-decoration: none; }
-nav ul, .contact-links { display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 0; padding: 0; list-style: none; }
-nav a { display: inline-block; padding: 0.5rem 0; font-weight: bold; }
-
-.intro { max-width: 46rem; padding: 4rem 0 3rem; }
-.eyebrow, .role { color: #476352; font-size: 0.9rem; font-weight: bold; }
-.eyebrow { margin-bottom: 1rem; }
-h1 { margin: 0 0 1.5rem; font-size: 3rem; letter-spacing: -0.04em; }
-.intro-text { max-width: 40rem; font-size: 1.15rem; }
-.button { display: inline-block; margin-top: 0.5rem; padding: 0.75rem 1.25rem; border: 1px solid #216047; border-radius: 0.3rem; font-weight: bold; }
-.button:hover { background-color: #eaf0e8; }
-
-.highlights { display: flex; flex-wrap: wrap; gap: 2rem 4rem; margin: 0; padding: 1.5rem 0; border-top: 1px solid #d7dfd8; border-bottom: 1px solid #d7dfd8; }
-.highlights div { flex: 1 1 16rem; }
-.highlights dt { color: #216047; font-size: 1.75rem; font-weight: bold; }
-.highlights dd { margin: 0; }
-
-.section { padding: 3rem 0; }
-.projects { display: grid; grid-template-columns: 1fr; gap: 1.25rem; }
-.project { padding: 1.5rem; border: 1px solid #d7dfd8; border-radius: 0.5rem; background-color: #ffffff; }
-.project img { display: block; margin-bottom: 1.25rem; border-radius: 0.5rem; }
-.project .role { margin-bottom: 0.5rem; }
-.project a { display: inline-block; padding: 0.5rem 0; font-weight: bold; }
-.about-contact { border-top: 1px solid #d7dfd8; }
-.about-contact .section { padding-bottom: 1rem; }
-.contact-links { gap: 0.5rem 1.25rem; }
-.contact-links a { display: inline-block; padding: 0.5rem 0; }
-.site-footer { margin-top: 2rem; padding-top: 1.5rem; padding-bottom: 1.5rem; border-top: 1px solid #d7dfd8; }
-.site-footer p { margin: 0; }
-.site-footer a { padding: 0.5rem 0; }
-
-/* Extra width changes the layout while preserving the reading order. */
-@media (min-width: 40rem) {
-  .projects { grid-template-columns: repeat(2, 1fr); }
-  .about-contact { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+a {
+  color: black;
 }
 
-@media (min-width: 60rem) {
-  .projects { grid-template-columns: repeat(3, 1fr); }
+a:focus {
+  outline: 2px solid black;
+  outline-offset: 2px;
 }
 
-@media (max-width: 25rem) {
-  .page-width { padding-left: 1rem; padding-right: 1rem; }
-  .intro { padding-top: 2.5rem; }
-  h1 { font-size: 2.25rem; }
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 5px 0;
+}
+
+section {
+  margin: 30px 0;
+}
+
+section h3 {
+  margin-bottom: 10px;
+}
+
+#roblox img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+/* Keep some space beside the text on small screens. */
+@media (max-width: 600px) {
+  body {
+    margin: 10px;
+    padding: 10px;
+  }
 }

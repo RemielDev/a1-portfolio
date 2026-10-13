@@ -1,4 +1,4 @@
-Validation record — October 12, 2026
+Validation record — October 12, 2026 — simplified revision
 
 HTML
 Nu Html Checker
@@ -24,7 +24,7 @@ Document checking completed. No errors or warnings to show.
 
 Used the HTML parser.
 
-Total execution time 4 milliseconds.
+Total execution time 3 milliseconds.
 
 About this checker • Report an issue
 
@@ -33,7 +33,7 @@ CSS (all warnings)
 
 W3C CSS Validator results for file://localhost/TextArea (CSS level 3)
 
-Jump to: Warnings (17) Validated CSS
+Jump to: Warnings (9) Validated CSS
 W3C CSS Validator results for file://localhost/TextArea (CSS level 3)
 Congratulations! No Error Found.
 
@@ -60,7 +60,7 @@ To show your readers that you've taken the care to create an interoperable Web p
 
 (close the img tag with > instead of /> if using HTML <= 4.01)
 
-	Interested in “developing” your developer skills? In W3Cx’s hands-on Professional Certificate Program, learn how to code the right way by creating Web sites and apps that use the latest Web standards. Find out more!
+	The W3C validators rely on community support for hosting and development.
 
 Donate and help us build better tools for a better web.
 
@@ -68,26 +68,17 @@ If you like, you can download a copy of this image to keep in your local web dir
 
 ↑ TOP
 
-Warnings (17)
+Warnings (9)
 URI : file://localhost/TextArea
-14		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
-15		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
-35		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
-40		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
-40		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
-45		You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.
-49		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
-54		You have no color set (or color is set to transparent) but you have set a background-color. Make sure that cascading of colors keeps the text reasonably legible.
-60		Redefinition of gap
-68		Redefinition of grid-template-columns
-73		Redefinition of grid-template-columns
-77		Redefinition of padding-left
-77		Redefinition of padding-right
-78		Redefinition of padding-top
-79		Redefinition of font-size
-URI : [empty string]
-0		Redefinition of column-gap
-0		Redefinition of row-gap
+12		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
+54		Redefinition of margin-bottom
+54		Redefinition of margin-left
+54		Redefinition of margin-top
+54		Redefinition of margin-right
+55		Redefinition of padding-bottom
+55		Redefinition of padding-left
+55		Redefinition of padding-top
+55		Redefinition of padding-right
 
 ↑ TOP
 
@@ -106,10 +97,6 @@ Login    Register
 AChecker Web Accessibility Checker
 Subscribe for automatic accessibility monitoring with ACHECKS!
  
-Discover more
-Build a Website
-Find Care Aids
-Try Assistive Tech
 
 
 Check Accessibility By:
@@ -127,47 +114,7 @@ Accessibility Review (Guidelines: WCAG 2.0 (Level AA))
 
 Known Problems(0)
 Likely Problems (0)
-Potential Problems (50)
-HTML Validation
-CSS Validation
-
- Congratulations! No known problems.
-
-
-Web site engine's code is copyright © 2023
-
-Discover more
-Compare Auto Rates
-Service Your Car
-Get Roadside Help
-
-AChecker with embedded assets
-Login    Register
-AChecker Web Accessibility Checker
-Subscribe for automatic accessibility monitoring with ACHECKS!
- 
-Discover more
-Build a Website
-Find Care Aids
-Try Assistive Tech
-
-
-Check Accessibility By:
-
-
-URL
-Upload
-Markup
-File: 
- 
- Options
-Accessibility Review
-Accessibility Review (Guidelines: WCAG 2.0 (Level AA))
-
-
-Known Problems(0)
-Likely Problems (0)
-Potential Problems (50)
+Potential Problems (54)
 HTML Validation
 CSS Validation
 
@@ -178,5 +125,5 @@ Web site engine's code is copyright © 2023
 
 
 Checked source SHA-256
-index.html: 7f686d4bde20a86d7d5fc1a1f764d1f4a91ffa3041373dd42c6cc7a7b3ed5641
-style.css: fd493d65d544b471839ce10a4a79c7eafc6fa42f153294b46a585b88329fa261
+index.html: 0625a518c4966a3df06004714d9952c19cec6e7078538ff8b7379f9220c86ad6
+style.css: 840dc25733d80fcc6d4368a9ad082e39d8c210b69a3cbe63a758f978a1813f73

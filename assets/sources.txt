@@ -1,21 +1,26 @@
-Project logos reused from Remiel Shirazi's existing website for this portfolio.
-Retrieved October 12, 2026. Original image data is preserved.
+Images reused from Remiel Shirazi's portfolio. Original image data is preserved.
 
-pogi-games.webp
-Page: https://remielshirazi.com/projects/pogi-games
-Image: https://remielshirazi.com/api/media/5c1c551f11ceb9d93d29ab105ca6a6db
+kabuki.png
+Page: https://remielshirazi.com/projects/roblox
+Image: https://tr.rbxcdn.com/180DAY-3fbec96096193df3cab89c1160f96a8c/768/432/Image/Png/noFilter
 
-bloom-ai.webp
-Page: https://remielshirazi.com/projects/bloom-ai
-Image: https://remielshirazi.com/api/media/c2bd5fe43204400e10810da7aa4afbf0
+snipers-vs-robbers.png
+Page: https://remielshirazi.com/projects/roblox
+Image: https://tr.rbxcdn.com/180DAY-1ade2b698ebf6472a5994e34b7d70077/768/432/Image/Png/noFilter
 
 da-hood.png
 Page: https://remielshirazi.com/projects/roblox
 Group: https://www.roblox.com/communities/4698921
 Image: https://tr.rbxcdn.com/180DAY-797128201ccc3eaaace951456e2d6dfc/420/420/Image/Png/noFilter
 
-Static achievement sources:
-1B+ lifetime plays: the Pogi Games page's published studio summary.
-Partner at Da Hood Entertainment: the Roblox page's group-role listing.
-Bloom AI Co-Founder & CTO, 36-hour hackathon, and 1st place at Roblox's Civility Challenge (LA Hacks 2025): the Bloom AI project page.
-The site's dynamically changing live player counts and game totals were not copied.
+Work and accomplishment sources:
+https://remielshirazi.com/projects/pogi-games
+https://remielshirazi.com/projects/roblox
+https://remielshirazi.com/projects/bloom-ai
+https://remielshirazi.com/projects/lyriclens
+https://remielshirazi.com/projects/capslock-viewer
+https://remielshirazi.com/projects/roblox-upload-cli
+https://www.roblox.com/games/128541381932893/Kabuki
+https://www.roblox.com/games/80414354975086/Snipers-VS-Robbers
+
+Game descriptions are paraphrased from their Roblox pages. No specific personal engineering role is invented for Kabuki or Snipers VS Robbers. Dynamic player/visit counts are omitted.
