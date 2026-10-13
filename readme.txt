@@ -16,11 +16,11 @@ IN4MATX 133, Assignment 1: Portfolio
 
 (a) Basic HTML: three images with descriptive alt text, headings and paragraphs, external links, unordered lists, and semantic header/nav/main/section/article/footer elements. There is one page.
 
-(b) CSS: simple padding and margins, black text and links on white, and readable Arial/Helvetica/sans-serif text. Images shrink to fit small screens. A basic media query reduces spacing below 600px.
+(b) CSS: simple padding and margins, black text on white, a black navigation bar with white links, consistent heading sizes, and thin section dividers. Text uses Arial/Helvetica/sans-serif. Images shrink to fit small screens; a basic media query reduces spacing below 600px.
 
 (c) Advanced: section navigation and nested selectors such as nav a, section h3, and #roblox img.
 
-The layout deliberately uses normal document flow, plain headings, and lists. There are no cards, decorative borders, oversized hero text, live player counts, JavaScript, or libraries.
+The layout uses normal document flow, plain headings, lists, a basic navigation bar, and horizontal dividers. The copyright line is removed. There are no cards, live player counts, JavaScript, or libraries.
 
 Selected Roblox work: Kabuki, Snipers VS Robbers, and Da Hood Entertainment. A separate list includes Bloom AI, LyricLens, CapsLockViewer, and roblox-upload. Accomplishments are ordinary bullet points rather than statistic blocks.
 
@@ -39,16 +39,16 @@ AChecker WCAG 2.0 AA found 0 known problems, 0 likely problems, and 54 potential
 - Headings (42, 43, 44): h1 is my name, h2 labels sections, and h3 labels the three Roblox entries. They represent content hierarchy.
 - Consistency/quotations (276, 131): the reading/navigation order stays the same at every width. There are no long quotations needing blockquote.
 
-Manual checks: all three images load, keyboard focus is visible, headings follow a logical order, and section navigation works. Black text on white has 21:1 contrast. No horizontal overflow at 320, 390, 599, 600, 601, 768, 960, or 1440px, or at equivalent 200% zoom.
+Manual checks: all three images load, keyboard focus is visible, headings follow a logical order, and section navigation works. Black text on white and white navigation links on black have 21:1 contrast. The earlier single-column layout had no horizontal overflow at 320, 390, 599, 600, 601, 768, 960, or 1440px, or at equivalent 200% zoom. The latest CSS retains fluid images and wrapping navigation links.
 
 W3C HTML: no errors or warnings.
-W3C CSS level 3: no errors. The all-warnings setting lists 9 warnings: one for link background inheritance and eight for the intentional margin/padding overrides in the small-screen media query. Links inherit the white page background; these overrides keep the layout readable.
+W3C CSS level 3: no errors. The all-warnings setting lists 10 warnings: two for link background inheritance and eight for intentional margin/padding overrides in the small-screen media query. Body links inherit white backgrounds; navigation links inherit the black navigation background. Both color pairs have 21:1 contrast. The spacing overrides are intentional.
 
 The three included JPG files are actual screenshots of the final source's checker results: valid-html-index.jpg, valid-css-index.jpg, and valid-accessibility-index.jpg. The complete CSS was checked through W3C's documented direct-input GET interface. AChecker checked the actual index.html; manual browser checks covered the local stylesheet and images.
 
 4. How long did it take?
 
-About 0.4 hours of AI-assisted setup, implementation, revisions, and checking across these Codex sessions. This excludes prior work on my main website and Roblox projects.
+About 0.5 hours of AI-assisted setup, implementation, revisions, and checking across these Codex sessions. This excludes prior work on my main website and Roblox projects.
 
 5. What resources and AI tools did you consult?
 
@@ -72,7 +72,7 @@ https://achecks.org/achecker/
 
 The course's HTML/CSS/accessibility/responsive-design lectures were also consulted. Image URLs are in assets/sources.txt.
 
-AI disclosure: I asked Codex to create a basic portfolio from the starter and my existing site, then simplify it to black/white, feature Kabuki/Snipers VS Robbers/Da Hood Entertainment, add other projects, replace statistic blocks with an accomplishments list, and describe my broader work as an entrepreneur in the introduction. Codex researched the content, generated and revised the HTML/CSS, ran browser/validator checks, collected screenshots, and helped complete this readme. This implementation is AI-assisted.
+AI disclosure: I asked Codex to create a basic portfolio from the starter and my existing site, then simplify it to black/white, feature Kabuki/Snipers VS Robbers/Da Hood Entertainment, add other projects, replace statistic blocks with an accomplishments list, describe my broader work as an entrepreneur in the introduction, remove the copyright line, and restore a simple navigation bar, heading sizes, and dividers. Codex researched the content, generated and revised the HTML/CSS, ran browser/validator checks, collected screenshots, and helped complete this readme. This implementation is AI-assisted.
 
 6. What classmates or individuals did you consult?
 
