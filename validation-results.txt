@@ -1,4 +1,4 @@
-Validation record — October 12, 2026 — restored white top header
+Validation record — October 12, 2026 — removed Skip/Back links
 
 HTML
 Nu Html Checker
@@ -60,7 +60,7 @@ To show your readers that you've taken the care to create an interoperable Web p
 
 (close the img tag with > instead of /> if using HTML <= 4.01)
 
-	The W3C validators rely on community support for hosting and development.
+	Interested in understanding what new technologies are coming out of W3C? Follow @w3cdevs on Mastodon to keep track of what the future looks like!
 
 Donate and help us build better tools for a better web.
 
@@ -71,14 +71,14 @@ If you like, you can download a copy of this image to keep in your local web dir
 Warnings (9)
 URI : file://localhost/TextArea
 13		You have no background-color set (or background-color is set to transparent) but you have set a color. Make sure that cascading of colors keeps the text reasonably legible.
-98		Redefinition of margin-bottom
-98		Redefinition of margin-left
-98		Redefinition of margin-top
-98		Redefinition of margin-right
-99		Redefinition of padding-bottom
-99		Redefinition of padding-left
-99		Redefinition of padding-top
-99		Redefinition of padding-right
+92		Redefinition of margin-bottom
+92		Redefinition of margin-left
+92		Redefinition of margin-top
+92		Redefinition of margin-right
+93		Redefinition of padding-bottom
+93		Redefinition of padding-left
+93		Redefinition of padding-top
+93		Redefinition of padding-right
 
 ↑ TOP
 
@@ -114,7 +114,7 @@ Accessibility Review (Guidelines: WCAG 2.0 (Level AA))
 
 Known Problems(0)
 Likely Problems (0)
-Potential Problems (55)
+Potential Problems (53)
 HTML Validation
 CSS Validation
 
@@ -125,5 +125,5 @@ Web site engine's code is copyright © 2023
 
 
 Checked source SHA-256
-index.html: bc240bf99083d146da1b7f4ae6ea88748287ae44f78adfd461c743066976d739
-style.css: 45d6535c82518aabbe9cba6b23aefa31b2867688459e99464489c5343e14f251
+index.html: 046f0dd2dfd0336ea865bc97d0d9ef5a5f66a27b0ab30eb8826ff677935ece7c
+style.css: a3f0918b9c0f5a11aca901c459e4863939b633295a96907cc329d38792d1b10f

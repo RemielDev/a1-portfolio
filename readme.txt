@@ -14,7 +14,7 @@ IN4MATX 133, Assignment 1: Portfolio
 
 2. What features did you include?
 
-(a) Basic HTML: three images with descriptive alt text, headings and paragraphs, external links, unordered lists, and semantic header/nav/main/section/article/footer elements. There is one page.
+(a) Basic HTML: three images with descriptive alt text, headings and paragraphs, external links, unordered lists, and semantic header/nav/main/section/article elements. There is one page.
 
 (b) CSS: simple padding and margins, black text on white, a white top header with my name on the left and black navigation links on the right, consistent heading sizes, and thin section dividers. Text uses Arial/Helvetica/sans-serif. Images shrink to fit small screens; a basic media query reduces spacing below 600px.
 
@@ -28,12 +28,12 @@ This is a new HTML/CSS page for this course. Facts and images come from my exist
 
 3. Did you ignore accessibility warnings or errors? Why?
 
-AChecker WCAG 2.0 AA found 0 known problems, 0 likely problems, and 55 potential problems. No known/likely errors were ignored. All potential prompts were reviewed:
+AChecker WCAG 2.0 AA found 0 known problems, 0 likely problems, and 53 potential problems. No known/likely errors were ignored. All potential prompts were reviewed:
 
 - Images (178, 16, 8, 14, 251, 11): the game artwork and group logo have short descriptive alternatives. They are not complex data diagrams needing long descriptions. The game/group names also appear as normal text, including the name shown in the Snipers VS Robbers artwork. Essential information and instructions do not depend on image colors.
 - Direction/language (271, 270, 110): the text is English with lang="en". Proper names do not require extra language/direction markup. There are no right-to-left passages.
 - Lists/relationships/sensory instructions (248, 262, 250): navigation, accomplishments, other projects, and contact links use ul/li. The nav is labelled. Instructions use destination names rather than color, shape, or position alone.
-- Skip link (28): the visible skip link is the first keyboard stop; Enter focuses main.
+- Bypass blocks (28): the visible Skip and Back links were removed. The page retains nav/main landmarks, logical headings, and short navigation. The header name link comes before the navigation and targets the focusable main element, providing a route directly to the content.
 - Title/links (54, 19): the title identifies the portfolio. Link text identifies games, projects, sections, and contact destinations. All internal targets exist.
 - Site map (184): this is one page; section navigation covers its main sections.
 - Headings (42, 43, 44): h1 is my name, h2 labels sections, and h3 labels the three Roblox entries. They represent content hierarchy.
@@ -72,7 +72,7 @@ https://achecks.org/achecker/
 
 The course's HTML/CSS/accessibility/responsive-design lectures were also consulted. Image URLs are in assets/sources.txt.
 
-AI disclosure: I asked Codex to create a basic portfolio from the starter and my existing site, then simplify it to black/white, feature Kabuki/Snipers VS Robbers/Da Hood Entertainment, add other projects, replace statistic blocks with an accomplishments list, describe my broader work as an entrepreneur in the introduction, remove the copyright line, and restore the original white top header with my name on the left and navigation on the right, along with heading sizes and dividers. Codex researched the content, generated and revised the HTML/CSS, ran browser/validator checks, collected screenshots, and helped complete this readme. This implementation is AI-assisted.
+AI disclosure: I asked Codex to create a basic portfolio from the starter and my existing site, then simplify it to black/white, feature Kabuki/Snipers VS Robbers/Da Hood Entertainment, add other projects, replace statistic blocks with an accomplishments list, describe my broader work as an entrepreneur in the introduction, remove the copyright line, and restore the original white top header with my name on the left and navigation on the right, along with heading sizes and dividers, and remove the visible Skip/Back links. Codex researched the content, generated and revised the HTML/CSS, ran browser/validator checks, collected screenshots, and helped complete this readme. This implementation is AI-assisted.
 
 6. What classmates or individuals did you consult?
 
